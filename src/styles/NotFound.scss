@@ -1,0 +1,33 @@
+@import 'vars';
+.mainContainer {
+    margin: 0 90px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+}
+.mainContainer__404 {
+    color: red;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    
+}
+.mainContainer__message {
+
+}
+
+.mainContainer__button > button{
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    text-decoration: none;
+}
+.mainContainer__button-ancla {
+    text-decoration: none;
+}
